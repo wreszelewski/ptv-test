@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Wojciech Reszelewski",
   "license": "ISC",
+  "scripts": {
+    "test": "./node_modules/moca/bin/moca"
+  },
   "dependencies": {
     "mocha": "^3.0.2",
     "zombie": "git://github.com/wreszelewski/zombie.git"
