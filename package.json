@@ -1,0 +1,12 @@
+{
+  "name": "ptv-tests",
+  "version": "1.0.0",
+  "description": "Test suite for automatic tests of programtv.onet.pl website",
+  "main": "index.js",
+  "author": "Wojciech Reszelewski",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.0.2",
+    "zombie": "git://github.com/wreszelewski/zombie.git"
+  }
+}
