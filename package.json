@@ -6,7 +6,7 @@
   "author": "Wojciech Reszelewski",
   "license": "ISC",
   "scripts": {
-    "test": "./node_modules/moca/bin/moca",
+    "test": "./node_modules/mocha/bin/mocha",
     "postinstall": "cd node_modules && git clone https://github.com/wreszelewski/zombie.git && cd zombie && npm install && npm run build"
   },
   "dependencies": {
