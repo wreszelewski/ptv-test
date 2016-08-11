@@ -13,7 +13,7 @@ describe('HomePage check', function() {
 
 	checkStandardPageElements(browser);
 
-	describe('check emissions canvas', function() {
+	describe('Emissions canvas check', function() {
 
 		it('should contain emission link', function() {
 			browser.assert.elements('#emissions .boxTVHolder .boxTV a', {atLeast: 1});

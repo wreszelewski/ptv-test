@@ -17,4 +17,11 @@ describe('Emission Page check', function() {
 
 	checkStandardPageElements(browser);
 
+	describe('Emission and program specyfic elements check', function() {
+
+		it('should contain description', function() {
+			browser.assert.element('.entryDesc');
+		});
+	});
+
 });
